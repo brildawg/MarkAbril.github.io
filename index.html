@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="icon" type="image/png" href="pics//Cyber security logo.png">
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+        
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <ul class="nav-links">
+                   <!-- <li>
+                        <a href="#welcome-section">
+                            <img src="images/Cyber security logo.png" width="100px" alt=""><span style="padding-right: 800px;"></span>
+                        </a>
+                   </li> -->
+                   <li><a href="#welcome-section" class="nav-link">Home</a></li>
+                   <li><a href="#projects" class="nav-link">Certificates</a></li>
+                   <li><a href="#video" class="nav-link">Video Resume</a></li>
+                   <li><a href="#contact" class="nav-link">Contact me</a></li>
+                   <li><a href="blog.html" class="nav-link">Blog</a><span style="padding-right: 100px;"></span></li>
+                   
+                </ul>
+            </nav>
+        </header>
+        <section id="welcome-section">
+            <h1 class="text-lefit">Hello, I'm Mark.</h1>
+            <p>Welcome to my website</p>
+        </section>
+        <section id="projects">
+            <h1>My Certificates</h1>
+            <div class="projects">
+                <a href="images/FreeCodeCamp_WebDesign.jpg" class="project-tile">
+                    <img src="images/FreeCodeCamp_WebDesign.jpg" alt="">
+                    <p><span>&lt;</span>Responsive Web Design<span>/&gt;</span></p>
+                </a>
+                <a href="images/SoloLearn_Java.png" class="project-tile">
+                    <img src="images/SoloLearn_Java.png" alt="">
+                    <p><span>&lt;</span>Java<span>/&gt;</span></p>
+                </a>
+                <!-- Add more image links as needed -->
+            </div>
+            <!-- <a href="" class="show-all">
+                Show All <i class="ri-arrow-right-s-line"></i>
+            </a> -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+            <script>
+                lightGallery(document.querySelector('.projects'), {
+                    selector: '.project-tile',
+                    counter: false, // Optional: To hide the image counter
+                    download: false, // Optional: To disable image download
+                });
+            </script>
+        </section>
+        <section id="video">
+            <h1>My Video Resume</h1>
+            <iframe width="1000" height="500" src="https://www.youtube.com/embed/UtGt3BB9O6g?si=VCAqlxDGR2a7EqFL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="contact">
+            <h1>Let's work together...</h1>
+            <p class="coffee-question">How do you take your coffee</p>
+            <div class="social-medias">
+                 <a href="https://www.facebook.com/brildawg/"   
+                 target="_blank" class="social-media">
+                    <i class="ri-facebook-box-fill ri-2x"></i>
+                    <p>Facebook</p>
+                 </a>
+                 <a href="https://github.com/brildawg" target="_blank" class="social-media" id="profile-link">
+                    <i class="ri-github-fill ri-2x"></i>
+                    <p>Github</p>
+                 </a>
+                 <a href="https://www.linkedin.com/in/mark-john-abril-0a0712275/" target="_blank" class="social-media">
+                    <i class="ri-linkedin-fill ri-2x"></i>
+                    <p>Linkedin</p>
+                 </a>
+                 <a target="_blank" href="mailto: markjohnabril23@gmail.com" class="social-media">
+                    <i class="ri-at-line ri-2x"></i>
+                    <p>Send a mail</p>
+                 </a>
+                 <a href="tel:09457690367" class="social-media">
+                    <i class="ri-cellphone-fill ri-2x"></i>
+                    <p>Call me</p>
+                 </a>
+            </div>
+        </section>
+       
+        <footer>Created by Mark John Abril April 2024</footer>
+    </body>
+</html>
